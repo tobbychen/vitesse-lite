@@ -1,0 +1,13 @@
+lockfileVersion: 5.3
+
+specifiers:
+  all: ^0.0.0
+
+dependencies:
+  all: 0.0.0
+
+packages:
+
+  /all/0.0.0:
+    resolution: {integrity: sha1-+yqnXUdZ1A457LsRj6vwzBH/VU8=}
+    dev: false

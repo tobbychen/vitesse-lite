@@ -1,0 +1,10 @@
+{
+    "name": "@damddos/utils",
+    "version": "0.1.0",
+    "peerDependencies": {
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "all": "^0.0.0"
+    }
+}
