@@ -1,6 +1,12 @@
 <template>
-  <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
+  <main>
+  {{ slogan }}
     <router-view />
-    <Footer />
+    <FooterVue ref="footer"/>
   </main>
 </template>
+<script setup lang="ts">
+import FooterVue from './components/Footer.vue';
+const footer = ref<InstanceType<typeof FooterVue>>();
+let slogan = computed(() => footer.value?.isDark ? '白' : '夜');
+</script>
